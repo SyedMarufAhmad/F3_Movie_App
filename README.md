@@ -10,6 +10,7 @@ To interface with the OMDB API, use the endpoint: https://www.omdbapi.com/?s={SE
 Search: Array encapsulating movie details: - Title: Movie title. - Year: Release year. - imdbID: Unique movie identifier. - Type: Specifies if it's a movie or series. - Poster: URL to the movie poster.
 
 Features
+
 1.Inputs & Search: Integrate two input fields: API Key input Movie title input Ensure both fields aren't empty before proceeding. Use a single "Search" button to initiate the search.
 
 2.Custom Spinning Loader: During the data fetching phase, exhibit a CSS-based spinning loader. This loader should be hidden once data is successfully fetched or if an error occurs.
@@ -21,6 +22,7 @@ Features
 5.Adaptive Design: Ensure the dashboard's optimal performance across mobile and desktop.
 
 Hints
+
 1.For obtaining an API key, visit OMDB API and remember to adhere to rate limits.
 2.Use the "Response" and "Error" keys in the API's returned JSON to manage errors effectively.
 3.To craft the spinning loader, CSS keyframes will be instrumental. Research on "CSS Spinners" for inspiration.
